@@ -1,4 +1,5 @@
 .caixa-formulario {
+
     background-color: #e5e5e5;
     padding: 50px 50px;
     border-radius: 10%;
@@ -9,8 +10,11 @@
 }
 
 .caixa-formulario h2 {
+    
     color: #e6005a;
-    margin-top: 20px;
+    margin-top: 5px;
+    display: flex;
+    justify-content: center;
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -19,11 +23,13 @@
     flex-direction: column;
     align-items: flex-start;
     justify-content: flex-start;
+    font-family: Arial, Helvetica, sans-serif;
+
 }
 
 .campo label {
-    color:#e6005a;
-    margin: 15px 0; 
+    color: #e6005a;
+    margin: 6px 2px; 
 }
 
 .campo input {
@@ -37,7 +43,7 @@
     margin: 20px;
     width: 120px;
     color: #ffffff;
-    background-color:#e6005a;
+    background-color: #e6005a;
     padding: 10px 20px;
     font-weight: bold;
     border: none;
@@ -47,5 +53,5 @@
 
 /* Ao passar o mouse diminui a opacidade, 0 á 1 */
 .caixa-formulario button:hover {
-    opacity:0.8;
+    opacity: 0.8;
 }

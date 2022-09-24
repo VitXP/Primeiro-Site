@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="estilos.css">
     <link rel="stylesheet" href="login.css">
+    <link rel="stylesheet" href="cadastro.css">
     <title>Login</title>
 </head>
 
@@ -35,22 +36,27 @@
     <div class="banner">
         <div class="container">
             <div class="caixa-formulario">
-                <h2>Olá, Seja Bem-Vindo</h2>
-                <br><br><div class="campo">
-                    <label for="email">E-mail:</label>
-                    <input type="email" id="email" placeholder="meuemail@provedor.com"> 
+                <h2>BEM-VINDO!</h2> <br> <br>
+                <div class="campo">
+                    <label for="nome">Nome:</label>
+                    <input type="text" id="nome" placeholder="Seu nome">
                 </div>
                 <div class="campo">
-                    <label for="password">Senha:</label>
-                    <input type="password" id="password" placeholder="             ************">
+                    <label for="email">E-mail:</label>
+                    <input type="email" id="email" placeholder="meuemail@provedor.com">
                 </div>
-                <button>Enviar</button>
+                <div class="campo">
+                    <label for="password">Senha:</label> <input type="password" id="senha" placeholder="                *******" </div>
+                    <div class="campo">
+                        <label for="password">Confirmação da Senha:</label> <input type="password"
+                            id="confirmacao_senha" placeholder="                *******" </div>
+                        <button>Enviar</button>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
-
-
-    <!-- Footer -->
+    
     <div class="footer">
         <div class="container">
             <p>Desenvolvido pelo melhor SPtecherv - &copy; copyright</p>
