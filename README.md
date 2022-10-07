@@ -1,5 +1,5 @@
 # Primeiro-Site
-📃 Primeiro site desenvolvido na aula de Projeto e Inovação.
+Primeiro site desenvolvido na aula de Projeto e Inovação.
 
 # Tecnologias utilizadas
 
